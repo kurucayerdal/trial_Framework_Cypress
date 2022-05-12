@@ -18,23 +18,6 @@
     "chromeWebSecurity": false,
     "screenshotOnRunFailure": true,
     "capture" : "fullPage",
-    "reporter" : "mochawesome",
-    "reporterOptions": {
-        "reportDir": "cypress/reports/mocha",
-        "reportFilename" : "[status]_[datetime]-[name]-report",
-        "reportTitle" : "Rapport",
-        "reportPageTitle": "Tests",
-        "charts" : true,
-        "quite": true,
-        "overwrite": false,
-        "html": false,
-        "json": true,
-        "code" : true    
-    },
-    "env" :{
-        "resultsFolder" :"cypress/reports/mochareports/assets",
-        "TestsID": ""
-    },
-    "screenshotsFolder": "cypress/reports/mochareports/assets",
+    "screenshotsFolder": "cypress/results/screenshots",
     "downloadsFolder": "cypress/downloads"
 }

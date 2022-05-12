@@ -20,16 +20,7 @@ import './utilities/ReusableMethods';
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 require('cypress-xpath');
-  
 
-  // on('before:run', (details) => {
-  //   /* ... */
-  // });
-
-//   before(()=>{
-//         // deleteReports.js
-//  const fs = require("fs");
-//  fs.rmdirSync("./cypress/reports", {recursive: true});
-//   });
+import '@shelex/cypress-allure-plugin';
 
 

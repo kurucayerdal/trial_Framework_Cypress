@@ -1,0 +1,98 @@
+{
+  "ae717ad42e7d43684820da44acbc12a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fcefeb6fcff346d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652090863257,
+        "stop" : 1652090867211,
+        "duration" : 3954
+      }
+    } ]
+  },
+  "252b9da7c7bff8f0c37a9466570ac657" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cdce8322907e2bae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652090846420,
+        "stop" : 1652090852357,
+        "duration" : 5937
+      }
+    } ]
+  },
+  "53a629f1b7fe6343118b63d3441c7c38" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb20523d5ae8adbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652090857197,
+        "stop" : 1652090863240,
+        "duration" : 6043
+      }
+    } ]
+  },
+  "501958e99803855a9ef0e38e268c8c91" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7dc44e7eeda53d",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 10000ms: expected 'EVOLUCARE Technologies - Recherche Google' to equal undefined",
+      "time" : {
+        "start" : 1652090831299,
+        "stop" : 1652090846375,
+        "duration" : 15076
+      }
+    } ]
+  },
+  "330b0996cf8d9e8e592f0c961f58ced3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9fed6743113cedbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652090852387,
+        "stop" : 1652090855929,
+        "duration" : 3542
+      }
+    } ]
+  }
+}

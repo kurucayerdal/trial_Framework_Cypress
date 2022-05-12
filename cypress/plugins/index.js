@@ -9,22 +9,11 @@ module.exports = (on, config) => {
   // `config` is the resolved Cypress config
 };
 
-// need to install the "del" module as a dependency
-// npm i del --save-dev
-// const del = require("del");
-// module.exports = (on, config) => {
-//   on("before:run", () => {
-//     const deletedFilePaths = del([
-//       "mkdir",
-//     ]);
-//     //const deletedDirectoryPaths = del(["temp", "public"]);
-//     return this;
-//   });
-// };
+/// <reference types="@shelex/cypress-allure-plugin" />
 
-// module.exports = (on, config) => {
-//   on('before:spec', (spec) => {
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 
-//     return this;
-//   });
-// };
+module.exports = (on, config) => {
+    allureWriter(on, config);
+    return config;
+};

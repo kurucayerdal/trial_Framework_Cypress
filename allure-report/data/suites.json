@@ -1,0 +1,98 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test Suite 1",
+    "children" : [ {
+      "name" : "Test 1",
+      "uid" : "c7dc44e7eeda53d",
+      "parentUid" : "8e0b6ccdbb38585219d95d5a713785ac",
+      "status" : "failed",
+      "time" : {
+        "start" : 1652090831299,
+        "stop" : 1652090846375,
+        "duration" : 15076
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test 2",
+      "uid" : "cdce8322907e2bae",
+      "parentUid" : "8e0b6ccdbb38585219d95d5a713785ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652090846420,
+        "stop" : 1652090852357,
+        "duration" : 5937
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test 3",
+      "uid" : "9fed6743113cedbe",
+      "parentUid" : "8e0b6ccdbb38585219d95d5a713785ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652090852387,
+        "stop" : 1652090855929,
+        "duration" : 3542
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8e0b6ccdbb38585219d95d5a713785ac"
+  }, {
+    "name" : "Test Suite 2",
+    "children" : [ {
+      "name" : "Test A",
+      "uid" : "eb20523d5ae8adbc",
+      "parentUid" : "8ece11feeb8fee5b46b836529db97b94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652090857197,
+        "stop" : 1652090863240,
+        "duration" : 6043
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test B",
+      "uid" : "fcefeb6fcff346d2",
+      "parentUid" : "8ece11feeb8fee5b46b836529db97b94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652090863257,
+        "stop" : 1652090867211,
+        "duration" : 3954
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8ece11feeb8fee5b46b836529db97b94"
+  } ]
+}
